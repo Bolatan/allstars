@@ -41,6 +41,12 @@ export default function Header() {
               About
             </button>
             <button
+              onClick={() => scrollToSection('players')}
+              className="text-gray-700 hover:text-green-600 transition-colors duration-200 font-medium"
+            >
+              Players
+            </button>
+            <button
               onClick={() => scrollToSection('training')}
               className="text-gray-700 hover:text-green-600 transition-colors duration-200 font-medium"
             >
@@ -84,6 +90,12 @@ export default function Header() {
                 className="text-left text-gray-700 hover:text-green-600 transition-colors duration-200 font-medium py-2"
               >
                 About
+              </button>
+              <button
+                onClick={() => scrollToSection('players')}
+                className="text-left text-gray-700 hover:text-green-600 transition-colors duration-200 font-medium py-2"
+              >
+                Players
               </button>
               <button
                 onClick={() => scrollToSection('training')}
