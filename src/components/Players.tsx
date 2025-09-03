@@ -9,7 +9,7 @@ export default function Players() {
       career: "1995-2010",
       clubs: ["Shooting Stars FC", "Enyimba FC", "Al-Hilal Sudan"],
       achievements: ["CAF Champions League Winner", "Nigerian League Champion"],
-      image: "https://images.pexels.com/photos/274506/pexels-photo-274506.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      image: "https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
       quote: "Football taught me discipline. This club keeps that spirit alive."
     },
     {
@@ -18,7 +18,7 @@ export default function Players() {
       career: "1998-2015",
       clubs: ["Kano Pillars", "Heartland FC", "FC Ifeanyi Ubah"],
       achievements: ["Top Scorer NPFL 2008", "Nigeria U-23 Captain"],
-      image: "https://images.pexels.com/photos/3621100/pexels-photo-3621100.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      image: "https://images.pexels.com/photos/1618200/pexels-photo-1618200.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
       quote: "The brotherhood here reminds me why I fell in love with football."
     },
     {
@@ -27,7 +27,7 @@ export default function Players() {
       career: "1992-2008",
       clubs: ["Kaduna United", "Lobi Stars", "Rangers International"],
       achievements: ["NPFL Champion", "Nigeria B International"],
-      image: "https://images.pexels.com/photos/3621102/pexels-photo-3621102.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      image: "https://images.pexels.com/photos/3621261/pexels-photo-3621261.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
       quote: "Every Saturday feels like match day. The passion never dies."
     },
     {
@@ -36,7 +36,7 @@ export default function Players() {
       career: "1996-2012",
       clubs: ["Enugu Rangers", "Wikki Tourists", "Nasarawa United"],
       achievements: ["Golden Gloves Award", "CAF Cup Finalist"],
-      image: "https://images.pexels.com/photos/3621103/pexels-photo-3621103.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      image: "https://images.pexels.com/photos/3621260/pexels-photo-3621260.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
       quote: "Keeping goal taught me leadership. Now I help guide our team."
     },
     {
@@ -45,7 +45,7 @@ export default function Players() {
       career: "2000-2016",
       clubs: ["MFM FC", "Sunshine Stars", "Akwa United"],
       achievements: ["NPFL All-Star", "Federation Cup Winner"],
-      image: "https://images.pexels.com/photos/3621101/pexels-photo-3621101.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      image: "https://images.pexels.com/photos/3621259/pexels-photo-3621259.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
       quote: "Speed was my weapon. Now wisdom is what I bring to the pitch."
     },
     {
@@ -54,7 +54,7 @@ export default function Players() {
       career: "1994-2009",
       clubs: ["Katsina United", "Plateau United", "Gombe United"],
       achievements: ["Nigeria U-20 World Cup", "NPFL Champion"],
-      image: "https://images.pexels.com/photos/3621105/pexels-photo-3621105.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      image: "https://images.pexels.com/photos/3621258/pexels-photo-3621258.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
       quote: "Football is life. This club proves that legends never truly retire."
     }
   ];
