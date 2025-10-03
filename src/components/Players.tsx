@@ -1,5 +1,5 @@
 import React from 'react';
-import { Trophy, Calendar, MapPin, Star } from 'lucide-react';
+import { Trophy, Calendar } from 'lucide-react';
 
 export default function Players() {
   const players = [
