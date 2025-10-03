@@ -17,9 +17,7 @@ export default function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="bg-green-600 rounded-full p-2">
-              <Users className="h-6 w-6 text-white" />
-            </div>
+            <img src="/soccerlogo.jpeg" alt="Ikorodu All-Stars FC Logo" className="h-12 w-12 rounded-full" />
             <div>
               <h1 className="text-xl font-bold text-gray-900">Ikorodu All-Stars FC</h1>
               <p className="text-xs text-gray-600">Ex-Footballers United</p>
