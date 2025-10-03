@@ -16,6 +16,9 @@ const images = [
   '/stuu-678.JPG',
   '/stuu-519.JPG',
   '/stuu-675.JPG',
+  '/stuu-462.JPG',
+  '/stuu-657.JPG',
+  '/stuu-668.JPG',
 ];
 
 export default function ImageSlider() {
