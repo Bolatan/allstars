@@ -13,7 +13,7 @@ export default function Footer() {
                 <Users className="h-6 w-6 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white">Ikorodu All-Stars FC</h3>
+                <h3 className="text-xl font-bold text-white">LASUSTECH ALL STARS FOOTBALL CLUB</h3>
                 <p className="text-sm text-gray-400">Ex-Footballers United</p>
               </div>
             </div>
@@ -26,7 +26,7 @@ export default function Footer() {
                 <span>for the beautiful game</span>
               </p>
               <p className="text-xs text-gray-500 mt-1">
-                © 2025 Ikorodu All-Stars FC. All rights reserved.
+                © 2025 LASUSTECH ALL STARS FOOTBALL CLUB. All rights reserved.
               </p>
             </div>
           </div>
