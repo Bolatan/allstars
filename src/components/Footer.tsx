@@ -14,7 +14,7 @@ export default function Footer() {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-white">LASUSTECH ALL STARS FOOTBALL CLUB</h3>
-                <p className="text-sm text-gray-400">Ex-Footballers United</p>
+                <p className="text-sm text-gray-400">One Love, Never Tired....</p>
               </div>
             </div>
 
