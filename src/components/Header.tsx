@@ -20,7 +20,7 @@ export default function Header() {
             <img src="/soccerlogo.jpeg" alt="LASUSTECH ALL STARS FOOTBALL CLUB Logo" className="h-12 w-12 rounded-full" />
             <div>
               <h1 className="text-xl font-bold text-gray-900">LASUSTECH ALL STARS FOOTBALL CLUB</h1>
-              <p className="text-xs text-gray-600">Ex-Footballers United</p>
+              <p className="text-xs text-gray-600">One Love, Never Tired....</p>
             </div>
           </div>
 
