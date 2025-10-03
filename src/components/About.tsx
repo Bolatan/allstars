@@ -1,6 +1,6 @@
 import React from 'react';
 import { Award, Users, Heart, Target } from 'lucide-react';
-
+import ImageSlider from './ImageSlider';
 export default function About() {
   const features = [
     {
@@ -56,17 +56,7 @@ export default function About() {
                 competitions, or local clubs, you'll find your place among legends.
               </p>
             </div>
-            <div className="relative">
-              <img 
-                src="/stuu-110.JPG"
-                alt="Football team celebrating"
-                className="rounded-lg shadow-xl w-full h-80 object-cover"
-              />
-              <div className="absolute -bottom-6 -right-6 bg-green-600 text-white p-6 rounded-lg shadow-lg">
-                <p className="text-2xl font-bold">50+</p>
-                <p className="text-sm">Active Members</p>
-              </div>
-            </div>
+            <ImageSlider />
           </div>
 
           {/* Features Grid */}
