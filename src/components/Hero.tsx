@@ -29,6 +29,7 @@ export default function Hero() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+
             <span className="text-2xl md:text-4xl">LASUSTECH</span>
             <span className="block text-green-400 text-2xl md:text-4xl">ALL STARS FOOTBALL CLUB</span>
           </h1>
