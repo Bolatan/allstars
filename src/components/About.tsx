@@ -58,7 +58,7 @@ export default function About() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&cs=tinysrgb&w=800&h=600"
+                src="/stuu-110.JPG"
                 alt="Football team celebrating"
                 className="rounded-lg shadow-xl w-full h-80 object-cover"
               />
