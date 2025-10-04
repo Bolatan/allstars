@@ -11,7 +11,11 @@ export default function Hero() {
     '/stuu-699.JPG',
     '/stuu-684.JPG',
     '/stuu-678.JPG',
-    '/stuu-675.JPG'
+    '/stuu-675.JPG',
+    '/stuu-668.JPG',
+    '/stuu-657.JPG',
+    '/stuu-525.JPG',
+    '/stuu-519.JPG'
     // Add more image paths here as needed
   ];
 
