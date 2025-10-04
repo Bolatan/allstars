@@ -22,11 +22,11 @@ export default function Hero() {
     }
   };
 
-  // Auto-advance slider every 5 seconds
+  // Auto-advance slider every 15 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prev) => (prev + 1) % images.length);
-    }, 5000);
+    }, 15000);
     
     return () => clearInterval(interval);
   }, [images.length]);
