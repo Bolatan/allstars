@@ -6,14 +6,12 @@ export default function Hero() {
   
   // Array of all images in the public folder
   const images = [
-    '/stuu-107.JPG',
     '/stuu-110.JPG',
-    '/stuu-156.JPG',
-    '/stuu-189.JPG',
-    '/stuu-199.JPG',
-    '/stuu-229.JPG',
-    '/stuu-25.JPG',
-    '/stuu-297.JPG'
+    '/stuu-720.JPG',
+    '/stuu-699.JPG',
+    '/stuu-684.JPG',
+    '/stuu-678.JPG',
+    '/stuu-675.JPG'
     // Add more image paths here as needed
   ];
 
