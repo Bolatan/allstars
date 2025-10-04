@@ -15,10 +15,10 @@ export default function Hero() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('/stuu-110.JPG')`
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('/stuu-156.JPG')`
         }}
       />
-
+      
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
@@ -26,17 +26,17 @@ export default function Hero() {
             <span className="text-2xl md:text-4xl">LASUSTECH</span>
             <span className="block text-green-400 text-2xl md:text-4xl">ALL STARS FOOTBALL CLUB</span>
           </h1>
-
+          
           <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
             Where legends reunite. A community of ex-professional footballers keeping the passion alive through 
             weekly training sessions and brotherhood.
           </p>
-
+          
           <div className="flex items-center justify-center space-x-2 mb-10 text-lg">
             <MapPin className="h-5 w-5 text-green-400" />
             <span>Training every Saturday at Lagos State University of Science and Technology, Ikorodu</span>
           </div>
-
+          
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
             <button
               onClick={() => scrollToSection('membership')}
@@ -54,7 +54,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
+      
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
