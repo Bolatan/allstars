@@ -2,6 +2,32 @@ import React from 'react';
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Twitter } from 'lucide-react';
 
 export default function Contact() {
+  const [submitted, setSubmitted] = React.useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch('https://formspree.io/f/manpbyyb', {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+        form.reset();
+        setTimeout(() => setSubmitted(false), 5000);
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
+  };
+
   const contactInfo = [
     {
       icon: Phone,
@@ -90,7 +116,15 @@ export default function Contact() {
             {/* Contact Form */}
             <div className="bg-gray-800 rounded-2xl p-8">
               <h3 className="text-2xl font-bold mb-6">Send Us a Message</h3>
-              <form className="space-y-6">
+              
+              {submitted && (
+                <div className="mb-6 bg-green-600 text-white p-4 rounded-lg">
+                  <h4 className="font-semibold mb-1">Thank you for reaching out!</h4>
+                  <p className="text-sm">We've received your message and will get back to you soon.</p>
+                </div>
+              )}
+
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div>
                     <label htmlFor="firstName" className="block text-sm font-medium text-gray-300 mb-2">
@@ -99,6 +133,8 @@ export default function Contact() {
                     <input
                       type="text"
                       id="firstName"
+                      name="firstName"
+                      required
                       className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-white placeholder-gray-400"
                       placeholder="Your first name"
                     />
@@ -110,6 +146,8 @@ export default function Contact() {
                     <input
                       type="text"
                       id="lastName"
+                      name="lastName"
+                      required
                       className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-white placeholder-gray-400"
                       placeholder="Your last name"
                     />
@@ -123,6 +161,8 @@ export default function Contact() {
                   <input
                     type="email"
                     id="email"
+                    name="email"
+                    required
                     className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-white placeholder-gray-400"
                     placeholder="your.email@example.com"
                   />
@@ -135,6 +175,7 @@ export default function Contact() {
                   <input
                     type="tel"
                     id="phone"
+                    name="phone"
                     className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-white placeholder-gray-400"
                     placeholder="+234 xxx xxx xxxx"
                   />
@@ -146,7 +187,9 @@ export default function Contact() {
                   </label>
                   <textarea
                     id="message"
+                    name="message"
                     rows={4}
+                    required
                     className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-white placeholder-gray-400 resize-none"
                     placeholder="Tell us about your football background and interest in joining..."
                   ></textarea>
