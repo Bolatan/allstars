@@ -25,7 +25,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex space-x-6">
             <button
               onClick={() => scrollToSection('home')}
               className="text-gray-700 hover:text-green-600 transition-colors duration-200 font-medium"
@@ -43,6 +43,12 @@ export default function Header() {
               className="text-gray-700 hover:text-green-600 transition-colors duration-200 font-medium"
             >
               Players
+            </button>
+            <button
+              onClick={() => scrollToSection('gallery')}
+              className="text-gray-700 hover:text-green-600 transition-colors duration-200 font-medium"
+            >
+              Gallery
             </button>
             <button
               onClick={() => scrollToSection('training')}
@@ -94,6 +100,12 @@ export default function Header() {
                 className="text-left text-gray-700 hover:text-green-600 transition-colors duration-200 font-medium py-2"
               >
                 Players
+              </button>
+              <button
+                onClick={() => scrollToSection('gallery')}
+                className="text-left text-gray-700 hover:text-green-600 transition-colors duration-200 font-medium py-2"
+              >
+                Gallery
               </button>
               <button
                 onClick={() => scrollToSection('training')}
