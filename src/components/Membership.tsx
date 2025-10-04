@@ -31,6 +31,13 @@ export default function Membership() {
     }
   ];
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="membership" className="py-20 bg-white">
       <div className="container mx-auto px-4">
@@ -86,7 +93,10 @@ export default function Membership() {
                   Take the first step towards reconnecting with your football family. 
                   Contact us today to begin your membership application.
                 </p>
-                <button className="bg-white text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
+                <button 
+                  onClick={scrollToContact}
+                  className="bg-white text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200"
+                >
                   Apply for Membership
                 </button>
               </div>
