@@ -148,9 +148,9 @@ export default function Players() {
                 Are you a former professional footballer looking to reconnect with the game? 
                 Join our community of legends and continue your football journey.
               </p>
-              <button className="bg-white text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
+              <a href="#contact" className="bg-white text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
                 Apply for Membership
-              </button>
+              </a>
             </div>
           </div>
         </div>
