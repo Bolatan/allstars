@@ -38,7 +38,7 @@ export default function Contact() {
     {
       icon: Mail,
       title: "Email",
-      info: "info@ikoroduallstars.ng",
+      info: "lasustechallstars@gmail.com",
       subInfo: "We'll respond within 24hrs"
     },
     {
