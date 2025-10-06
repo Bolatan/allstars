@@ -32,7 +32,7 @@ export default function Contact() {
     {
       icon: Phone,
       title: "Phone",
-      info: "+234 803 123 4567",
+      info: "+234 802 327 3297, 08023368389, +234 818 485 1831",
       subInfo: "Available 9AM - 6PM"
     },
     {
