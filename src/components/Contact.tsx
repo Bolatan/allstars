@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Twitter } from 'lucide-react';
+import { MapPin, Clock, Facebook, Instagram, Twitter } from 'lucide-react';
 
 export default function Contact() {
   const [submitted, setSubmitted] = React.useState(false);
@@ -30,28 +30,16 @@ export default function Contact() {
 
   const contactInfo = [
     {
-      icon: Phone,
-      title: "Phone",
-      info: "+234 802 327 3297, 08023368389, +234 818 485 1831",
-      subInfo: "Available 9AM - 6PM"
-    },
-    {
-      icon: Mail,
-      title: "Email",
-      info: "lasustechallstars@gmail.com",
-      subInfo: "We'll respond within 24hrs"
-    },
-    {
       icon: MapPin,
       title: "Training Ground",
-      info: "LASUST Football Field",
+      info: "LASUSTECH Football Field",
       subInfo: "Ikorodu, Lagos State"
     },
     {
       icon: Clock,
       title: "Training Time",
       info: "Every Saturday",
-      subInfo: "3:00 PM - 6:00 PM"
+      subInfo: "7:00 AM - 4:00 PM"
     }
   ];
 
