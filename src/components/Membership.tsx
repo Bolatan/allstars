@@ -111,18 +111,18 @@ export default function Membership() {
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
-                  name: "Adebayo Johnson",
-                  role: "Former Super Eagles Midfielder",
+                  name: "Niyi Johnson",
+                  role: "Former Midfielder",
                   quote: "This club brought back my love for football. The brotherhood here is unmatched."
                 },
                 {
-                  name: "Emeka Okafor",
-                  role: "Ex-Professional League Player",
+                  name: "Prof. Fatai-Abatan",
+                  role: "Club President",
                   quote: "Training here keeps me fit and connected to the game I dedicated my life to."
                 },
                 {
-                  name: "Ibrahim Musa",
-                  role: "Retired Club Captain",
+                  name: "Hon. Shakiru Sowemimo",
+                  role: "Club Captain",
                   quote: "More than just football - we're a family supporting each other on and off the pitch."
                 }
               ].map((testimonial, index) => (
