@@ -10,12 +10,12 @@ export default function Training() {
     },
     {
       icon: Clock,
-      title: "3:00 PM - 6:00 PM",
+      title: "7:00 AM - 4:00 PM",
       description: "Afternoon sessions perfect for weekend warriors"
     },
     {
       icon: MapPin,
-      title: "LASUST Field",
+      title: "LASUSTECH FOOTBALL PITCH",
       description: "Professional-grade facilities in Ikorodu"
     },
     {
