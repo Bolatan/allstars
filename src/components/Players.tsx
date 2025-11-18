@@ -4,39 +4,12 @@ import { Trophy, Calendar } from 'lucide-react';
 export default function Players() {
   const players = [
     {
-      name: "Chinedu Okoro",
-      position: "Former Goalkeeper",
-      career: "1996-2012",
-      clubs: ["Enugu Rangers", "Wikki Tourists", "Nasarawa United"],
-      achievements: ["Golden Gloves Award", "CAF Cup Finalist"],
-      image: "https://images.pexels.com/photos/3621260/pexels-photo-3621260.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: "Keeping goal taught me leadership. Now I help guide our team."
-    },
-    {
-      name: "Olumide Adeyemi",
-      position: "Former Winger",
-      career: "2000-2016",
-      clubs: ["MFM FC", "Sunshine Stars", "Akwa United"],
-      achievements: ["NPFL All-Star", "Federation Cup Winner"],
-      image: "https://images.pexels.com/photos/3621259/pexels-photo-3621259.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: "Speed was my weapon. Now wisdom is what I bring to the pitch."
-    },
-    {
-      name: "Yakubu Hassan",
-      position: "Former Central Midfielder",
-      career: "1994-2009",
-      clubs: ["Katsina United", "Plateau United", "Gombe United"],
-      achievements: ["Nigeria U-20 World Cup", "NPFL Champion"],
-      image: "https://images.pexels.com/photos/3621258/pexels-photo-3621258.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: "Football is life. This club proves that legends never truly retire."
-    },
-    {
       name: "Abiodun Alabi Kogboyinbo",
       position: "Former Striker",
       career: "1992 - 2007",
       clubs: ["Pepsi Academy", "GASKIYA College", "Gray United, Osun State", "SAMBA United, Kaduna State", "Excel FC, Lagos", "Dream United, Ghana", "Platinum Stars FC South Africa"],
       achievements: [],
-      image: "https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      image: "/Abiodun_Alabi_Kogboyinbo.jpg",
       quote: ""
     },
     {
@@ -45,7 +18,7 @@ export default function Players() {
       career: "1991 - 2003",
       clubs: ["Eko Boys, Mushin", "Nucleus FC", "Glory FC", "Nipost FC", "Dragon FC, Benin Republic", "African sport FC, Ivory Coast"],
       achievements: [],
-      image: "https://images.pexels.com/photos/1618200/pexels-photo-1618200.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      image: "/stuu-107.JPG",
       quote: ""
     },
     {
@@ -54,7 +27,7 @@ export default function Players() {
       career: "1982 - ",
       clubs: ["Atunrase Boys High School, Surulere", "Eko Boys High School, Mushin", "Govt College, Ikorodu"],
       achievements: [],
-      image: "https://images.pexels.com/photos/3621261/pexels-photo-3621261.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      image: "/Shakiru_Sowemimo.jpg",
       quote: ""
     },
     {
@@ -63,7 +36,7 @@ export default function Players() {
       career: "",
       clubs: ["Yewa Secondary school, Ikorodu", "Greater Tomorrow FC"],
       achievements: [],
-      image: "https://images.pexels.com/photos/3621260/pexels-photo-3621260.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      image: "/rafiuyusuf.jpg",
       quote: ""
     },
     {
@@ -72,7 +45,7 @@ export default function Players() {
       career: "1989 - 2005",
       clubs: ["IFY BABES FC", "PRINCESS JEGEDE FC IMT FC, ENUGU"],
       achievements: [],
-      image: "https://images.pexels.com/photos/3621259/pexels-photo-3621259.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      image: "/ernestmadu.jpg",
       quote: ""
     },
     {
@@ -81,7 +54,7 @@ export default function Players() {
       career: "",
       clubs: ["FC Bambutus, Cameroon"],
       achievements: [],
-      image: "https://images.pexels.com/photos/3621258/pexels-photo-3621258.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      image: "/Ibrahim_Oseni.jpg",
       quote: ""
     }
   ];
