@@ -5,12 +5,12 @@ export default function Training() {
   const trainingDetails = [
     {
       icon: Calendar,
-      title: "Every Saturday",
+      title: "Evening Saturday",
       description: "Weekly sessions to maintain fitness and skills"
     },
     {
       icon: Clock,
-      title: "7:00 AM - 4:00 PM",
+      title: "7:00Am - 4:00PM",
       description: "Afternoon sessions perfect for weekend warriors"
     },
     {
