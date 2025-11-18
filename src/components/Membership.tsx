@@ -121,9 +121,9 @@ export default function Membership() {
                   quote: "Training here keeps me fit and connected to the game I dedicated my life to."
                 },
                 {
-                  name: "Hon. Shakiru Sowemimo",
-                  role: "Club Captain",
-                  quote: "More than just football - we're a family supporting each other on and off the pitch."
+                  name: "Niyi Johnson",
+                  role: "Former Midfielder",
+                  quote: "This club brought back my love for football The brotherhood here is unmatched"
                 }
               ].map((testimonial, index) => (
                 <div key={index} className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
