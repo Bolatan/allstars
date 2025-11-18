@@ -4,30 +4,6 @@ import { Trophy, Calendar } from 'lucide-react';
 export default function Players() {
   const players = [
     {
-      name: "Chinedu Okoro",
-      position: "Former Goalkeeper",
-      career: "1996-2012",
-      clubs: ["Enugu Rangers", "Wikki Tourists", "Nasarawa United"],
-      image: "https://images.pexels.com/photos/3621260/pexels-photo-3621260.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: "Keeping goal taught me leadership. Now I help guide our team."
-    },
-    {
-      name: "Olumide Adeyemi",
-      position: "Former Winger",
-      career: "2000-2016",
-      clubs: ["MFM FC", "Sunshine Stars", "Akwa United"],
-      image: "https://images.pexels.com/photos/3621259/pexels-photo-3621259.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: "Speed was my weapon. Now wisdom is what I bring to the pitch."
-    },
-    {
-      name: "Yakubu Hassan",
-      position: "Former Central Midfielder",
-      career: "1994-2009",
-      clubs: ["Katsina United", "Plateau United", "Gombe United"],
-      image: "https://images.pexels.com/photos/3621258/pexels-photo-3621258.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: "Football is life. This club proves that legends never truly retire."
-    },
-    {
       name: "Abiodun Alabi Kogboyinbo",
       position: "Former Striker",
       career: "1992 - 2007",
