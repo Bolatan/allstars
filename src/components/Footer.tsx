@@ -94,14 +94,38 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-green-400 flex-shrink-0" />
-                <a href="tel:+234" className="text-gray-400 hover:text-green-400 transition-colors duration-200 text-sm">
-                  +234 XXX XXX XXXX
+                <a href="tel:+2348023368389" className="text-gray-400 hover:text-green-400 transition-colors duration-200 text-sm">
+                  Tel: +234 802 336 8389
+                </a>
+              </li>
+               <li className="flex items-center space-x-3">
+                <Phone className="h-5 w-5 text-green-400 flex-shrink-0" />
+                <a href="tel:+2348023273297" className="text-gray-400 hover:text-green-400 transition-colors duration-200 text-sm">
+                  +234 802 327 3297
+                </a>
+              </li>
+               <li className="flex items-center space-x-3">
+                <Phone className="h-5 w-5 text-green-400 flex-shrink-0" />
+                <a href="tel:+2348023818601" className="text-gray-400 hover:text-green-400 transition-colors duration-200 text-sm">
+                  +234 802 381 8601
+                </a>
+              </li>
+               <li className="flex items-center space-x-3">
+                <Phone className="h-5 w-5 text-green-400 flex-shrink-0" />
+                <a href="tel:+2348184851831" className="text-gray-400 hover:text-green-400 transition-colors duration-200 text-sm">
+                  +234 818 485 1831
                 </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-green-400 flex-shrink-0" />
-                <a href="mailto:info@lasustechallstars.com" className="text-gray-400 hover:text-green-400 transition-colors duration-200 text-sm">
-                  info@lasustechallstars.com
+                <a href="mailto:lasustechallstarsfc@gmail.com" className="text-gray-400 hover:text-green-400 transition-colors duration-200 text-sm">
+                  lasustechallstarsfc@gmail.com
+                </a>
+              </li>
+              <li className="flex items-center space-x-3">
+                <Mail className="h-5 w-5 text-green-400 flex-shrink-0" />
+                <a href="mailto:info@lasustechallstarsfc.org.ng" className="text-gray-400 hover:text-green-400 transition-colors duration-200 text-sm">
+                  info@lasustechallstarsfc.org.ng
                 </a>
               </li>
             </ul>
