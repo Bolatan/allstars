@@ -16,7 +16,7 @@ export default function Players() {
       position: "Midfielder",
       career: "1991 - 2003",
       clubs: ["Eko Boys, Mushin", "Nucleus FC", "Glory FC", "Nipost FC", "Dragon FC, Benin Republic", "African sport FC, Ivory Coast"],
-      image: "https://images.pexels.com/photos/1618200/pexels-photo-1618200.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      image: "/Dadakayode.jpeg",
       quote: ""
     },
     {
@@ -40,7 +40,7 @@ export default function Players() {
       position: "Midfielder",
       career: "1989 - 2005",
       clubs: ["IFY BABES FC", "PRINCESS JEGEDE FC IMT FC, ENUGU"],
-      image: "/ernestmadu.jpg",
+      image: "/ernestmadu.jpeg",
       quote: ""
     },
     {
