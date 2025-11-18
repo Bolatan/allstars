@@ -8,72 +8,63 @@ export default function Players() {
       position: "Former Goalkeeper",
       career: "1996-2012",
       clubs: ["Enugu Rangers", "Wikki Tourists", "Nasarawa United"],
-      image: "https://images.pexels.com/photos/3621260/pexels-photo-3621260.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: "Keeping goal taught me leadership. Now I help guide our team."
+      image: "https://images.pexels.com/photos/3621260/pexels-photo-3621260.jpeg?auto=compress&cs=tinysrgb&w=400&h=400"
     },
     {
       name: "Olumide Adeyemi",
       position: "Former Winger",
       career: "2000-2016",
       clubs: ["MFM FC", "Sunshine Stars", "Akwa United"],
-      image: "https://images.pexels.com/photos/3621259/pexels-photo-3621259.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: "Speed was my weapon. Now wisdom is what I bring to the pitch."
+      image: "https://images.pexels.com/photos/3621259/pexels-photo-3621259.jpeg?auto=compress&cs=tinysrgb&w=400&h=400"
     },
     {
       name: "Yakubu Hassan",
       position: "Former Central Midfielder",
       career: "1994-2009",
       clubs: ["Katsina United", "Plateau United", "Gombe United"],
-      image: "https://images.pexels.com/photos/3621258/pexels-photo-3621258.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: "Football is life. This club proves that legends never truly retire."
+      image: "https://images.pexels.com/photos/3621258/pexels-photo-3621258.jpeg?auto=compress&cs=tinysrgb&w=400&h=400"
     },
     {
       name: "Abiodun Alabi Kogboyinbo",
       position: "Former Striker",
       career: "1992 - 2007",
       clubs: ["Pepsi Academy", "GASKIYA College", "Gray United, Osun State", "SAMBA United, Kaduna State", "Excel FC, Lagos", "Dream United, Ghana", "Platinum Stars FC South Africa"],
-      image: "https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: ""
+      image: "https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&w=400&h=400"
     },
     {
       name: "Dada Kayode",
       position: "Midfielder",
       career: "1991 - 2003",
       clubs: ["Eko Boys, Mushin", "Nucleus FC", "Glory FC", "Nipost FC", "Dragon FC, Benin Republic", "African sport FC, Ivory Coast"],
-      image: "https://images.pexels.com/photos/1618200/pexels-photo-1618200.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: ""
+      image: "https://images.pexels.com/photos/1618200/pexels-photo-1618200.jpeg?auto=compress&cs=tinysrgb&w=400&h=400"
     },
     {
       name: "Shakiru Sowemimo (aka Omo Alhaja)",
       position: "Forward",
       career: "1982 - ",
       clubs: ["Atunrase Boys High School, Surulere", "Eko Boys High School, Mushin", "Govt College, Ikorodu"],
-      image: "https://images.pexels.com/photos/3621261/pexels-photo-3621261.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: ""
+      image: "https://images.pexels.com/photos/3621261/pexels-photo-3621261.jpeg?auto=compress&cs=tinysrgb&w=400&h=400"
     },
     {
       name: "Rafiu Yusuf",
       position: "Midfielder",
       career: "",
       clubs: ["Yewa Secondary school, Ikorodu", "Greater Tomorrow FC"],
-      image: "https://images.pexels.com/photos/3621260/pexels-photo-3621260.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: ""
+      image: "https://images.pexels.com/photos/3621260/pexels-photo-3621260.jpeg?auto=compress&cs=tinysrgb&w=400&h=400"
     },
     {
       name: "Ernest Madu",
       position: "Midfielder",
       career: "1989 - 2005",
       clubs: ["IFY BABES FC", "PRINCESS JEGEDE FC IMT FC, ENUGU"],
-      image: "https://images.pexels.com/photos/3621259/pexels-photo-3621259.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: ""
+      image: "https://images.pexels.com/photos/3621259/pexels-photo-3621259.jpeg?auto=compress&cs=tinysrgb&w=400&h=400"
     },
     {
       name: "Ibrahim Oseni",
       position: "Midfielder",
       career: "",
       clubs: ["FC Bambutus, Cameroon"],
-      image: "https://images.pexels.com/photos/3621258/pexels-photo-3621258.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: ""
+      image: "https://images.pexels.com/photos/3621258/pexels-photo-3621258.jpeg?auto=compress&cs=tinysrgb&w=400&h=400"
     }
   ];
 
@@ -136,10 +127,6 @@ export default function Players() {
                     </div>
                   </div>
 
-                  {/* Quote */}
-                  <blockquote className="border-l-4 border-green-600 pl-4 italic text-gray-700 text-sm">
-                    "{player.quote}"
-                  </blockquote>
                 </div>
               </div>
             ))}
