@@ -8,7 +8,7 @@ export default function Players() {
       position: "Former Striker",
       career: "1992 - 2007",
       clubs: ["Pepsi Academy", "GASKIYA College", "Gray United, Osun State", "SAMBA United, Kaduna State", "Excel FC, Lagos", "Dream United, Ghana", "Platinum Stars FC South Africa"],
-      image: "https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      image: "/Abiodun Alabi Kogboyinbo.jpg",
       quote: ""
     },
     {
@@ -24,7 +24,7 @@ export default function Players() {
       position: "Forward",
       career: "1982 - ",
       clubs: ["Atunrase Boys High School, Surulere", "Eko Boys High School, Mushin", "Govt College, Ikorodu"],
-      image: "https://images.pexels.com/photos/3621261/pexels-photo-3621261.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      image: "/Shakiru Sowemimo.jpg",
       quote: ""
     },
     {
@@ -32,7 +32,7 @@ export default function Players() {
       position: "Midfielder",
       career: "",
       clubs: ["Yewa Secondary school, Ikorodu", "Greater Tomorrow FC"],
-      image: "https://images.pexels.com/photos/3621260/pexels-photo-3621260.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      image: "/rafiuyusuf.jpg",
       quote: ""
     },
     {
@@ -40,7 +40,7 @@ export default function Players() {
       position: "Midfielder",
       career: "1989 - 2005",
       clubs: ["IFY BABES FC", "PRINCESS JEGEDE FC IMT FC, ENUGU"],
-      image: "https://images.pexels.com/photos/3621259/pexels-photo-3621259.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      image: "/ernestmadu.jpg",
       quote: ""
     },
     {
@@ -48,7 +48,7 @@ export default function Players() {
       position: "Midfielder",
       career: "",
       clubs: ["FC Bambutus, Cameroon"],
-      image: "https://images.pexels.com/photos/3621258/pexels-photo-3621258.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      image: "/Ibrahim Oseni.jpg",
       quote: ""
     }
   ];
