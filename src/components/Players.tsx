@@ -56,6 +56,60 @@ export default function Players() {
       achievements: ["Nigeria U-20 World Cup", "NPFL Champion"],
       image: "https://images.pexels.com/photos/3621258/pexels-photo-3621258.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
       quote: "Football is life. This club proves that legends never truly retire."
+    },
+    {
+      name: "Abiodun Alabi Kogboyinbo",
+      position: "Former Striker",
+      career: "1992 - 2007",
+      clubs: ["Pepsi Academy", "GASKIYA College", "Gray United, Osun State", "SAMBA United, Kaduna State", "Excel FC, Lagos", "Dream United, Ghana", "Platinum Stars FC South Africa"],
+      achievements: [],
+      image: "https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      quote: ""
+    },
+    {
+      name: "Dada Kayode",
+      position: "Midfielder",
+      career: "1991 - 2003",
+      clubs: ["Eko Boys, Mushin", "Nucleus FC", "Glory FC", "Nipost FC", "Dragon FC, Benin Republic", "African sport FC, Ivory Coast"],
+      achievements: [],
+      image: "https://images.pexels.com/photos/1618200/pexels-photo-1618200.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      quote: ""
+    },
+    {
+      name: "Shakiru Sowemimo (aka Omo Alhaja)",
+      position: "Forward",
+      career: "1982 - ",
+      clubs: ["Atunrase Boys High School, Surulere", "Eko Boys High School, Mushin", "Govt College, Ikorodu"],
+      achievements: [],
+      image: "https://images.pexels.com/photos/3621261/pexels-photo-3621261.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      quote: ""
+    },
+    {
+      name: "Rafiu Yusuf",
+      position: "Midfielder",
+      career: "",
+      clubs: ["Yewa Secondary school, Ikorodu", "Greater Tomorrow FC"],
+      achievements: [],
+      image: "https://images.pexels.com/photos/3621260/pexels-photo-3621260.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      quote: ""
+    },
+    {
+      name: "Ernest Madu",
+      position: "Midfielder",
+      career: "1989 - 2005",
+      clubs: ["IFY BABES FC", "PRINCESS JEGEDE FC IMT FC, ENUGU"],
+      achievements: [],
+      image: "https://images.pexels.com/photos/3621259/pexels-photo-3621259.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      quote: ""
+    },
+    {
+      name: "Ibrahim Oseni",
+      position: "Midfielder",
+      career: "",
+      clubs: ["FC Bambutus, Cameroon"],
+      achievements: [],
+      image: "https://images.pexels.com/photos/3621258/pexels-photo-3621258.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
+      quote: ""
     }
   ];
 
