@@ -111,8 +111,8 @@ export default function Membership() {
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
-                  name: "Niyi Johnson",
-                  role: "Former Midfielder",
+                  name: "Gabriel Olusanya Akinwale",
+                  role: "Club Secretary",
                   quote: "This club brought back my love for football. The brotherhood here is unmatched."
                 },
                 {
