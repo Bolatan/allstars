@@ -4,33 +4,6 @@ import { Trophy, Calendar } from 'lucide-react';
 export default function Players() {
   const players = [
     {
-      name: "Adebayo Ogundimu",
-      position: "Former Midfielder",
-      career: "1995-2010",
-      clubs: ["Shooting Stars FC", "Enyimba FC", "Al-Hilal Sudan"],
-      achievements: ["CAF Champions League Winner", "Nigerian League Champion"],
-      image: "https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: "Football taught me discipline. This club keeps that spirit alive."
-    },
-    {
-      name: "Emeka Okafor",
-      position: "Former Striker",
-      career: "1998-2015",
-      clubs: ["Kano Pillars", "Heartland FC", "FC Ifeanyi Ubah"],
-      achievements: ["Top Scorer NPFL 2008", "Nigeria U-23 Captain"],
-      image: "https://images.pexels.com/photos/1618200/pexels-photo-1618200.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: "The brotherhood here reminds me why I fell in love with football."
-    },
-    {
-      name: "Ibrahim Musa",
-      position: "Former Defender",
-      career: "1992-2008",
-      clubs: ["Kaduna United", "Lobi Stars", "Rangers International"],
-      achievements: ["NPFL Champion", "Nigeria B International"],
-      image: "https://images.pexels.com/photos/3621261/pexels-photo-3621261.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: "Every Saturday feels like match day. The passion never dies."
-    },
-    {
       name: "Chinedu Okoro",
       position: "Former Goalkeeper",
       career: "1996-2012",
@@ -47,15 +20,6 @@ export default function Players() {
       achievements: ["NPFL All-Star", "Federation Cup Winner"],
       image: "https://images.pexels.com/photos/3621259/pexels-photo-3621259.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
       quote: "Speed was my weapon. Now wisdom is what I bring to the pitch."
-    },
-    {
-      name: "Yakubu Hassan",
-      position: "Former Central Midfielder",
-      career: "1994-2009",
-      clubs: ["Katsina United", "Plateau United", "Gombe United"],
-      achievements: ["Nigeria U-20 World Cup", "NPFL Champion"],
-      image: "https://images.pexels.com/photos/3621258/pexels-photo-3621258.jpeg?auto=compress&cs=tinysrgb&w=400&h=400",
-      quote: "Football is life. This club proves that legends never truly retire."
     }
   ];
 
