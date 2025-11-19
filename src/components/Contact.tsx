@@ -3,28 +3,37 @@ import { MapPin, Clock, Facebook, Instagram } from 'lucide-react';
 
 export default function Contact() {
   const [submitted, setSubmitted] = React.useState(false);
+  const [error, setError] = React.useState<string | null>(null);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const form = e.target;
+    const form = e.target as HTMLFormElement;
     const formData = new FormData(form);
 
+    setSubmitted(false);
+    setError(null);
+
     try {
-      const response = await fetch('https://formspree.io/f/manpbyyb', {
+      const response = await fetch('https://formspree.io/f/mgvdkbre', {
         method: 'POST',
         body: formData,
         headers: {
-          'Accept': 'application/json'
-        }
+          Accept: 'application/json',
+        },
       });
 
       if (response.ok) {
         setSubmitted(true);
         form.reset();
         setTimeout(() => setSubmitted(false), 5000);
+      } else {
+        setError('Something went wrong. Please try again.');
+        setTimeout(() => setError(null), 5000);
       }
     } catch (error) {
       console.error('Error submitting form:', error);
+      setError('Something went wrong. Please try again.');
+      setTimeout(() => setError(null), 5000);
     }
   };
 
@@ -106,8 +115,14 @@ export default function Contact() {
               
               {submitted && (
                 <div className="mb-6 bg-green-600 text-white p-4 rounded-lg">
-                  <h4 className="font-semibold mb-1">Thank you for reaching out!</h4>
-                  <p className="text-sm">We've received your message and will get back to you soon.</p>
+                  <h4 className="font-semibold mb-1">Thank you for your message!</h4>
+                  <p className="text-sm">We'll get back to you as soon as possible.</p>
+                </div>
+              )}
+              {error && (
+                <div className="mb-6 bg-red-600 text-white p-4 rounded-lg">
+                  <h4 className="font-semibold mb-1">Submission Error</h4>
+                  <p className="text-sm">{error}</p>
                 </div>
               )}
 
