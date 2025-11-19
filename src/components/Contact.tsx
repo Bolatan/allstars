@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Clock, Facebook, Instagram, Twitter } from 'lucide-react';
+import { MapPin, Clock, Facebook, Instagram } from 'lucide-react';
 
 export default function Contact() {
   const [submitted, setSubmitted] = React.useState(false);
@@ -44,9 +44,8 @@ export default function Contact() {
   ];
 
   const socialLinks = [
-    { icon: Facebook, name: "Facebook", href: "#" },
-    { icon: Instagram, name: "Instagram", href: "#" },
-    { icon: Twitter, name: "Twitter", href: "#" }
+    { icon: Facebook, name: "Facebook", href: "https://www.facebook.com/Laspostars" },
+    { icon: Instagram, name: "Instagram", href: "https://www.instagram.com/lasustech_all_stars/" }
   ];
 
   return (
