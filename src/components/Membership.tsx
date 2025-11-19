@@ -111,9 +111,9 @@ export default function Membership() {
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
-                  name: "Gabriel Olusanya Akinwale",
+                  name: "Gabriel Olusanya Akinwale aka Gattuso",
                   role: "Club Secretary",
-                  quote: "This club brought back my love for football. The brotherhood here is unmatched."
+                  quote: "LASUSTECH ALLSTARS FC has become an institution having sustained for over two decades with strong heritage. It has become a fortress to keep fit, relax, network and unwind. In here, the bond is stronger beyond familial lines and unmatched brotherhood."
                 },
                 {
                   name: "Prof. Fatai-Abatan",
