@@ -106,7 +106,7 @@ export default function Hero() {
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
-            Where legends reunite. A community of ex-professional footballers keeping the passion alive through 
+            Where legends reunite. A community of football enthusiasts keeping the passion alive through
             weekly training sessions and brotherhood.
           </p>
           
