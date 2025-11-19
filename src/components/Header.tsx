@@ -68,6 +68,14 @@ export default function Header() {
             >
               Contact
             </button>
+            <a
+              href="https://photos.app.goo.gl/NJFNyBuySznyAZ2K6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-700 hover:text-green-600 transition-colors duration-200 font-medium"
+            >
+              Archive
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -125,6 +133,14 @@ export default function Header() {
               >
                 Contact
               </button>
+              <a
+                href="https://photos.app.goo.gl/NJFNyBuySznyAZ2K6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-left text-gray-700 hover:text-green-600 transition-colors duration-200 font-medium py-2"
+              >
+                Archive
+              </a>
             </div>
           </div>
         )}
