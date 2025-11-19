@@ -10,7 +10,7 @@ export default function Training() {
     },
     {
       icon: Clock,
-      title: "7:00Am - 4:00PM",
+      title: "7:00AM - 4:00PM",
       description: "Afternoon sessions perfect for weekend warriors"
     },
     {
