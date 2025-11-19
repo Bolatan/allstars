@@ -136,7 +136,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-green-400">Training Schedule</h3>
             <p className="text-gray-400 text-sm mb-4">
               <strong className="text-white">Every Saturday</strong><br />
-              4:00 PM - 6:00 PM
+              7:00 AM - 4:00 PM
             </p>
             <h4 className="text-sm font-semibold mb-3 text-white">Follow Us</h4>
             <div className="flex space-x-4">
