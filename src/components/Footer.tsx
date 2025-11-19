@@ -141,25 +141,18 @@ export default function Footer() {
             <h4 className="text-sm font-semibold mb-3 text-white">Follow Us</h4>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.facebook.com/Laspostars"
                 className="bg-gray-800 hover:bg-green-600 p-2 rounded-full transition-colors duration-200"
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/lasustech_all_stars/"
                 className="bg-gray-800 hover:bg-green-600 p-2 rounded-full transition-colors duration-200"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                className="bg-gray-800 hover:bg-green-600 p-2 rounded-full transition-colors duration-200"
-                aria-label="Twitter"
-              >
-                <Twitter className="h-5 w-5" />
               </a>
             </div>
           </div>
