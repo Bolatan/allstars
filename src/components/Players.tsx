@@ -24,7 +24,7 @@ export default function Players() {
       position: "Forward",
       career: "1982 - ",
       clubs: ["Atunrase Boys High School, Surulere", "Eko Boys High School, Mushin", "Govt College, Ikorodu"],
-      image: "/Shakiru Sowemimo.jpg",
+      image: "/55.jpg",
       quote: ""
     },
     {
