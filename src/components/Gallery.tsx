@@ -23,8 +23,7 @@ export default function Gallery() {
     '/WhatsApp Image 2025-11-19 at 17.02.09 (4).jpeg',
     '/WhatsApp Image 2025-11-19 at 17.02.09.jpeg',
     '/WhatsApp Image 2025-11-19 at 17.02.10.jpeg',
-    '/ernestmadu.jpeg',
-    '/rafiuyusuf.jpg',
+    
     '/soccerlogo.jpeg',
     '/stuu-107.JPG',
     '/stuu-110.JPG',
