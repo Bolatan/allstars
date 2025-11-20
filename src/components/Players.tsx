@@ -48,7 +48,7 @@ export default function Players() {
       position: "Midfielder",
       career: "",
       clubs: ["FC Bambutus, Cameroon"],
-      image: "/Ibrahim Oseni.jpg",
+      image: "/44.jpg",
       quote: ""
     }
   ];
