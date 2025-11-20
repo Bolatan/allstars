@@ -40,7 +40,7 @@ export default function Players() {
       position: "Midfielder",
       career: "1989 - 2005",
       clubs: ["IFY BABES FC", "PRINCESS JEGEDE FC IMT FC, ENUGU"],
-      image: "/33.jpeg",
+      image: "/33.jpg",
       quote: ""
     },
     {
