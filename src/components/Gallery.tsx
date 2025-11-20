@@ -5,10 +5,6 @@ export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   const images = [
-    '/Abiodun Alabi Kogboyinbo.jpg',
-    '/Dadakayode.jpeg',
-    '/Ibrahim Oseni.jpg',
-    '/Shakiru Sowemimo.jpg',
     '/WhatsApp Image 2025-11-19 at 17.01.02 (1).jpeg',
     '/WhatsApp Image 2025-11-19 at 17.01.02.jpeg',
     '/WhatsApp Image 2025-11-19 at 17.01.03 (1).jpeg',
@@ -16,7 +12,7 @@ export default function Gallery() {
     '/WhatsApp Image 2025-11-19 at 17.01.03 (3).jpeg',
     '/WhatsApp Image 2025-11-19 at 17.01.03.jpeg',
     '/WhatsApp Image 2025-11-19 at 17.01.04 (1).jpeg',
-    '/WhatsApp Image 2025-11-19 at 17.01.04.jpeg',
+    '1.jpeg',
     '/WhatsApp Image 2025-11-19 at 17.01.05 (1).jpeg',
     '/WhatsApp Image 2025-11-19 at 17.01.05 (2).jpeg',
     '/WhatsApp Image 2025-11-19 at 17.01.05.jpeg',
