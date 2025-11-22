@@ -173,7 +173,7 @@ export default function Footer() {
             <span>for the beautiful game</span>
           </p>
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} LASUSTECH ALL STARS FOOTBALL CLUB. All rights reserved. <br/><br/>Powered by www.sagnetplusteknikals.net.ng
+            © {new Date().getFullYear()} LASUSTECH ALL STARS FOOTBALL CLUB. All rights reserved. <br/><br/>Powered by <a href="https://www.sagnetplusteknikals.net.ng" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition-colors duration-200">www.sagnetplusteknikals.net.ng</a>
           </p>
         </div>
       </div>
