@@ -1,8 +1,16 @@
 import React from 'react';
-import { Trophy, Calendar } from 'lucide-react';
+import { Calendar } from 'lucide-react';
 
 export default function Players() {
   const players = [
+    {
+      name: "Professor Fatai A. Abatan",
+      position: "President",
+      career: "2005 - Present",
+      clubs: ["Dean: Students Affairs", "Lagos State University (LASU)"],
+      image: "/president.jpeg",
+      quote: "It is a great pleasure to lead this illustrious Club at this moment. LASUSTECH ALL STARS FC is the pride of Lagos and worthy ambassadors. The warmth is great and the bonding is exceptional."
+    },
     {
       name: "Abiodun Alabi Kogboyinbo",
       position: "Former Striker",
