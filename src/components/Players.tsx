@@ -1,14 +1,25 @@
 import React from 'react';
 import { Calendar } from 'lucide-react';
 
+interface Player {
+  name: string;
+  position: string;
+  career: string;
+  clubs: string[];
+  image: string;
+  imageClass?: string;
+  quote: string;
+}
+
 export default function Players() {
-  const players = [
+  const players: Player[] = [
     {
       name: "Professor Fatai A. Abatan",
       position: "President",
-      career: "2005 - Present",
-      clubs: ["Dean: Students Affairs", "Lagos State University (LASU)"],
-      image: "/president.jpeg",
+      career: "",
+      clubs: [],
+      image: "/mr.jpeg",
+      imageClass: "object-contain bg-gray-50",
       quote: "It is a great pleasure to lead this illustrious Club at this moment. LASUSTECH ALL STARS FC is the pride of Lagos and worthy ambassadors. The warmth is great and the bonding is exceptional."
     },
     {
@@ -76,11 +87,11 @@ export default function Players() {
                 className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2 group"
               >
                 {/* Player Image */}
-                <div className="relative overflow-hidden">
+                <div className="relative overflow-hidden bg-gray-100">
                   <img
                     src={player.image}
                     alt={player.name}
-                    className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                    className={`w-full h-64 ${player.imageClass || 'object-cover'} group-hover:scale-105 transition-transform duration-300`}
                   />
                   <div className="absolute top-4 right-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
                     {player.position.replace('Former ', '')}
