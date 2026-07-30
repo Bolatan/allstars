@@ -6,9 +6,10 @@ export default function Players() {
     {
       name: "Professor Fatai A. Abatan",
       position: "President",
-      career: "2005 - Present",
-      clubs: ["Dean: Students Affairs", "Lagos State University (LASU)"],
-      image: "/president.jpeg",
+      career: "",
+      clubs: [],
+      image: "/mr.jpeg",
+      imageClass: "object-contain",
       quote: "It is a great pleasure to lead this illustrious Club at this moment. LASUSTECH ALL STARS FC is the pride of Lagos and worthy ambassadors. The warmth is great and the bonding is exceptional."
     },
     {
@@ -80,7 +81,7 @@ export default function Players() {
                   <img
                     src={player.image}
                     alt={player.name}
-                    className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                    className={`w-full h-64 ${player.imageClass || 'object-cover'} group-hover:scale-105 transition-transform duration-300`}
                   />
                   <div className="absolute top-4 right-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
                     {player.position.replace('Former ', '')}
