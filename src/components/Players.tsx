@@ -52,12 +52,12 @@ export default function Players() {
       quote: ""
     },
     {
-      name: "Ibrahim Oseni",
-      position: "Midfielder",
+      name: "Otunba Tayo Adumati",
+      position: "Founder",
       career: "",
-      clubs: ["FC Bambutus, Cameroon"],
-      image: "/44.jpg",
-      quote: ""
+      clubs: [],
+      image: "/otunba.jpg",
+      quote: "On a weekend rendezvous with friends a discussion on football started, after much back and forth on stamina, we all agreed to try out a five asides training. A date for the following Saturday morning was picked and I promised to get a football. The football pitch of Lagos State Polythecnic, Ikorodu was agreed to be the venue. That action birthed LASPOTECH ALLSTARS, which was later rechristened LASUSTECH ALLSTARS FC due to the change of name of the institution"
     }
   ];
 
@@ -100,30 +100,36 @@ export default function Players() {
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{player.name}</h3>
                   <p className="text-green-600 font-semibold mb-3">{player.position}</p>
                   
-                  <div className="flex items-center space-x-2 text-gray-600 mb-4">
-                    <Calendar className="h-4 w-4" />
-                    <span className="text-sm">Career: {player.career}</span>
-                  </div>
+                  {player.career && (
+                    <div className="flex items-center space-x-2 text-gray-600 mb-4">
+                      <Calendar className="h-4 w-4" />
+                      <span className="text-sm">Career: {player.career}</span>
+                    </div>
+                  )}
 
                   {/* Clubs */}
-                  <div className="mb-4">
-                    <h4 className="text-sm font-semibold text-gray-900 mb-2">Former Clubs:</h4>
-                    <div className="flex flex-wrap gap-1">
-                      {player.clubs.map((club, clubIndex) => (
-                        <span
-                          key={clubIndex}
-                          className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs"
-                        >
-                          {club}
-                        </span>
-                      ))}
+                  {player.clubs && player.clubs.length > 0 && (
+                    <div className="mb-4">
+                      <h4 className="text-sm font-semibold text-gray-900 mb-2">Former Clubs:</h4>
+                      <div className="flex flex-wrap gap-1">
+                        {player.clubs.map((club, clubIndex) => (
+                          <span
+                            key={clubIndex}
+                            className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs"
+                          >
+                            {club}
+                          </span>
+                        ))}
+                      </div>
                     </div>
-                  </div>
+                  )}
 
                   {/* Quote */}
-                  <blockquote className="border-l-4 border-green-600 pl-4 italic text-gray-700 text-sm">
-                    "{player.quote}"
-                  </blockquote>
+                  {player.quote && (
+                    <blockquote className="border-l-4 border-green-600 pl-4 italic text-gray-700 text-sm">
+                      "{player.quote}"
+                    </blockquote>
+                  )}
                 </div>
               </div>
             ))}
