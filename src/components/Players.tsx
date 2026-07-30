@@ -12,6 +12,14 @@ export default function Players() {
       quote: ""
     },
     {
+      name: "Otunba Tayo Adumati",
+      position: "Founder",
+      career: "",
+      clubs: [],
+      image: "/otunba.jpg",
+      quote: "On a weekend rendezvous with friends a discussion on football started, after much back and forth on stamina, we all agreed to try out a five asides training. A date for the following Saturday morning was picked and I promised to get a football. The football pitch of Lagos State Polythecnic, Ikorodu was agreed to be the venue. That action birthed LASPOTECH ALLSTARS, which was later rechristened LASUSTECH ALLSTARS FC due to the change of name of the institution"
+    },
+    {
       name: "Dada Kayode",
       position: "Midfielder",
       career: "1991 - 2003",
@@ -42,14 +50,6 @@ export default function Players() {
       clubs: ["IFY BABES FC", "PRINCESS JEGEDE FC IMT FC, ENUGU"],
       image: "/33.jpg",
       quote: ""
-    },
-    {
-      name: "Otunba Tayo Adumati",
-      position: "Founder",
-      career: "",
-      clubs: [],
-      image: "/otunba.jpg",
-      quote: "On a weekend rendezvous with friends a discussion on football started, after much back and forth on stamina, we all agreed to try out a five asides training. A date for the following Saturday morning was picked and I promised to get a football. The football pitch of Lagos State Polythecnic, Ikorodu was agreed to be the venue. That action birthed LASPOTECH ALLSTARS, which was later rechristened LASUSTECH ALLSTARS FC due to the change of name of the institution"
     }
   ];
 
