@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Facebook, Instagram, Twitter, Heart } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook, Instagram, Heart } from 'lucide-react';
 
 export default function Footer() {
   const scrollToSection = (sectionId: string) => {
