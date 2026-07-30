@@ -1,16 +1,8 @@
 import React from 'react';
-import { Trophy, Calendar } from 'lucide-react';
+import { Calendar } from 'lucide-react';
 
 export default function Players() {
   const players = [
-    {
-      name: "Abiodun Alabi Kogboyinbo",
-      position: "Former Striker",
-      career: "1992 - 2007",
-      clubs: ["Pepsi Academy", "GASKIYA College", "Gray United, Osun State", "SAMBA United, Kaduna State", "Excel FC, Lagos", "Dream United, Ghana", "Platinum Stars FC South Africa"],
-      image: "/Abiodun Alabi Kogboyinbo.jpg",
-      quote: ""
-    },
     {
       name: "Dada Kayode",
       position: "Midfielder",
