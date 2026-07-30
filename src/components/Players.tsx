@@ -12,14 +12,6 @@ export default function Players() {
       quote: "It is a great pleasure to lead this illustrious Club at this moment. LASUSTECH ALL STARS FC is the pride of Lagos and worthy ambassadors. The warmth is great and the bonding is exceptional."
     },
     {
-      name: "Abiodun Alabi Kogboyinbo",
-      position: "Former Striker",
-      career: "1992 - 2007",
-      clubs: ["Pepsi Academy", "GASKIYA College", "Gray United, Osun State", "SAMBA United, Kaduna State", "Excel FC, Lagos", "Dream United, Ghana", "Platinum Stars FC South Africa"],
-      image: "/Abiodun Alabi Kogboyinbo.jpg",
-      quote: ""
-    },
-    {
       name: "Dada Kayode",
       position: "Midfielder",
       career: "1991 - 2003",
