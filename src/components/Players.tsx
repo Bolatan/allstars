@@ -9,7 +9,8 @@ export default function Players() {
       career: "2005 - Present",
       clubs: ["Dean: Students Affairs", "Lagos State University (LASU)"],
       image: "/president.jpeg",
-      quote: "It is a great pleasure to lead this illustrious Club at this moment. LASUSTECH ALL STARS FC is the pride of Lagos and worthy ambassadors. The warmth is great and the bonding is exceptional."
+      quote: "It is a great pleasure to lead this illustrious Club at this moment. LASUSTECH ALL STARS FC is the pride of Lagos and worthy ambassadors. The warmth is great and the bonding is exceptional.",
+      imageClass: "object-cover object-top"
     },
     {
       name: "Abiodun Alabi Kogboyinbo",
@@ -84,11 +85,11 @@ export default function Players() {
                 className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2 group"
               >
                 {/* Player Image */}
-                <div className="relative overflow-hidden">
+                <div className="relative overflow-hidden bg-white">
                   <img
                     src={player.image}
                     alt={player.name}
-                    className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                    className={`w-full h-64 group-hover:scale-105 transition-transform duration-300 ${player.imageClass || 'object-cover'}`}
                   />
                   <div className="absolute top-4 right-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
                     {player.position.replace('Former ', '')}
